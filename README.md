@@ -22,30 +22,21 @@ These instructions will get you a copy of the project up and running on your loc
 - [MoveIt!](http://docs.ros.org/kinetic/api/moveit_tutorials/html/index.html) 
 - Rviz
 - Software tested on Ubuntu 16.04.3 LTS.
+- AprilTags
 
 ## How to run it
 
-1. Run a gazebo simulation by launching the following commands in three different terminals
+1. Appropriately connect to the robot arm and gripper hardwares. 
+2. Launch 
 ```
-roscore
-```
-```
-roslaunch ur_gazebo ur10.launch
+roslaunch Shallow_Depth_Insertion manipulation_ur10.launch
 ```
 ```
-roslaunch ur10_moveit_config ur10_moveit_planning_execution.launch sim:=true
+roslaunch Shallow_Depth_Insertion april_tags.launch
 ```
-2. Rviz can also be executed with the following command on a fourth terminal
+3. Run the executable python script:
 ```
-roslaunch ur10_moveit_config moveit_rviz.launch config:=true
-```
-3. Run the executable python motion plan to run simulation in gazebo environment:
-```
-rosrun ur10_motion_script ur10_turnArcFunction.py
-```
-OR just launch a launch file
-```
-roslaunch ur10_motion_script simulation.launch
+rosrun Shallow_Depth_Insertion shallow_depth_insertion.py
 ```
 
 ## Authors
