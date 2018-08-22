@@ -7,13 +7,13 @@ This is a ROS package to demonstrate a robotic manipulation technique, particula
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Hardware Prerequisites
-#### Universal Robots UR10 robot arm
+- Universal Robots UR10 robot arm
 
-#### Robotiq 140mm Adaptive parallel-jaw gripper
+- Robotiq 140mm Adaptive parallel-jaw gripper
 
-#### FT 300 Force Torque Sensor
+- FT 300 Force Torque Sensor
 
-#### 1080p webcam 
+- 1080p webcam 
 
 ### Software Prerequisites
 - ROS kinetic 
