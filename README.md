@@ -17,9 +17,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Software Prerequisites
 - ROS kinetic 
-- universal_robot package [link](http://wiki.ros.org/universal_robot)
-- ur_modern_driver [link](https://github.com/ThomasTimm/ur_modern_driver)
-- MoveIt! [link](http://docs.ros.org/kinetic/api/moveit_tutorials/html/index.html) 
+- [universal_robot package](http://wiki.ros.org/universal_robot)
+- [ur_modern_driver](https://github.com/ThomasTimm/ur_modern_driver)
+- [MoveIt!](http://docs.ros.org/kinetic/api/moveit_tutorials/html/index.html) 
 - Rviz
 - Software tested on Ubuntu 16.04.3 LTS.
 
