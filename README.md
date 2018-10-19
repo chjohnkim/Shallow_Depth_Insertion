@@ -41,5 +41,5 @@ rosrun Shallow_Depth_Insertion shallow_depth_insertion.py
 
 ## Authors
 
-* **John Kim** 
+* **John Kim** (chkimaa@connect.ust.hk)
 
