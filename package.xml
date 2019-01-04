@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>ur10_motion_script</name>
+  <name>shallow_depth_insertion</name>
   <version>0.0.0</version>
-  <description>The ur10_motion_script package</description>
+  <description>The shallow_depth_insertion package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
