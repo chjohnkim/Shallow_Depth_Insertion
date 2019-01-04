@@ -16,14 +16,10 @@ from apriltags_ros.msg import *
 from geometry_msgs.msg import WrenchStamped
 from std_msgs.msg import *
 from rospy import init_node, is_shutdown
-from dynamixel_msgs.msg import JointState
-from dynamixel_controllers.srv import *
+
 
 ##___GLOBAL VARIABLES___###
 velocity = 0.05 #velocity scaling factor (0, 1.0] - Safe value for a real robot is ~0.05
-#Dynamixel
-goal_pos = float;
-goal_speed = 1.0;
 
 ##___INITIALIZATION___###
 moveit_commander.roscpp_initialize(sys.argv) #initialize the moveit commander
@@ -38,7 +34,6 @@ psi_pub = rospy.Publisher('psi_current', Float32, queue_size = 10)
 length_pub = rospy.Publisher('length_value', Float32, queue_size = 10)
 tf_listener = tf.TransformListener()
 tf_broadcaster = tf.TransformBroadcaster()
-dynamixel_pub = rospy.Publisher('tilt_controller/command', Float64, queue_size=10)
 
 
 
