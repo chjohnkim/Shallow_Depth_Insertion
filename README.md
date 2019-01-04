@@ -2,6 +2,8 @@
 
 This is a ROS package to demonstrate a robotic manipulation technique, particularly assembling a thin object into a complementary shallow hole. The utilized hardware includes UR10 robotic arm and Robotiq 2-Finger 140mm Adaptive parallel-jaw gripper. 
 
+To watch video, see: [here](https://www.youtube.com/watch?v=Nka-sCzrcSs)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
