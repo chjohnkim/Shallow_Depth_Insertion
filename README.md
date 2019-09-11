@@ -1,4 +1,6 @@
-# Shallow-Depth Insertion
+# Shallow-Depth Insertion (Deprecated)
+
+***Note: This package has been deprecated. To see the most recent version, go [here](https://github.com/HKUST-RML/shallow_depth_insertion).***
 
 This is a ROS package to demonstrate a robotic manipulation technique, particularly assembling a thin object into a complementary shallow hole. The utilized hardware includes UR10 robotic arm and Robotiq 2-Finger 140mm Adaptive parallel-jaw gripper. 
 
